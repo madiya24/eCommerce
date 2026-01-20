@@ -10,6 +10,8 @@
   <ItemGroup>
     <Folder Include="Domains/Enums/" />
     <Folder Include="Domains/Interfaces/" />
+    <Folder Include="Domains/Models/Discount/" />
+    <Folder Include="Domains/Models/Shipping/" />
     <Folder Include="Repositories/" />
   </ItemGroup>
 

@@ -2,7 +2,7 @@ using System;
 
 namespace eCommerce.Domains.Interfaces;
 
-public class IPayable
+public interface IPayable
 {
-
+    bool ProcesssPayment();
 }

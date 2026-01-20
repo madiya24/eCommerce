@@ -1,8 +1,9 @@
 using System;
+using eCommerce.Domains.Models.Discount;
 
 namespace eCommerce.Domains.Interfaces;
 
-public class IDiscountable
+public interface IDiscountable
 {
-
+    decimal ApplyDiscount(Discount discount);
 }
