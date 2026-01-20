@@ -2,7 +2,11 @@ using System;
 
 namespace eCommerce.Domains.Enums;
 
-public class PaymentStatus
+public enum PaymentStatus
 {
-
+    Pending,
+    Processing,
+    Completed,
+    Failed,
+    Refunded
 }

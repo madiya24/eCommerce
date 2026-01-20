@@ -2,12 +2,11 @@ using System;
 
 namespace eCommerce.Domains.Enums;
 
-public enum OrderSatus
+public enum ShippingStatus
 {
     Pending,
-    Processsing,
+    Processing,
     Shipped,
-    Delivered,
-    Cancelled,
-    Refunded
+    InTransit,
+    Delivered
 }

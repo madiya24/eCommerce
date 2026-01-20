@@ -2,7 +2,15 @@ using System;
 
 namespace eCommerce.Domains.Enums;
 
-public class ProductCategory
+public enum ProductCategory
 {
-
+    Electronic,
+    Clothing,
+    Books,
+    HomeAndGarden,
+    Sports,
+    Toys,
+    Food,
+    Beauty,
+    Other
 }
