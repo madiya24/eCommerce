@@ -1,6 +1,7 @@
 using System;
 using System.Data;
 using eCommerce.Domains.Enums;
+using eCommerce.Domains.Models.Discounts;
 
 namespace eCommerce.Domains.Models;
 
@@ -12,19 +13,19 @@ public abstract class Products
     public decimal price {get; set;}
     public int stockQuantity {get; set;}
     public ProductCategory Category {get; set;} //
-    public  string Brand {get; set;}
+    public  string brand {get; set;}
     public DateTime DateAdded {get;}
-    public double Rating {get; set;}
+    public double rating {get; set;}
 
     // constuctor
     protected Products()
     {
         DateAdded = DateTime.Now;
-        Rating = 0.0;
+        rating = 0.0;
     }
 
     //create an abstract methods
-    public abstract decimal CalculateFinalPrice(Discount discount = null);
+    public abstract decimal CalculateFinalPrice(Discount1 discount = null);
     public abstract bool IsAvailable();
 
     // create a virtual method

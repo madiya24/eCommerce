@@ -2,7 +2,7 @@ using System;
 
 namespace eCommerce.Domains.Models.Shipping;
 
-public class Shipping
+public class Shipping1
 {
 
 }

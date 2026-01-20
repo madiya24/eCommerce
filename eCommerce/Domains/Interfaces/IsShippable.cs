@@ -3,7 +3,7 @@ using eCommerce.Domains.Models.Shipping;
 
 namespace eCommerce.Domains.Interfaces;
 
-public interface IShipable
+public interface IsShippable
 {
-    decimal CalculateShippingCost(Shipping shippingMethod);
+    decimal CalculateShippingCost(Shipping1 shippingMethod);
 }
